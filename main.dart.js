@@ -99218,7 +99218,7 @@ $S:631}
 A.amu.prototype={
 $1(a){var s,r,q=a.d
 q===$&&A.a()
-s=A.b4R("http://13.126.169.99:8500",B.rm,"application/json",B.rm)
+s=A.b4R("https://api.karaji.app",B.rm,"application/json",B.rm)
 r=new A.TY(A.b([B.MI],t.i6))
 r.J(r,B.a0t)
 r=new A.ahl($,r,$,new A.akF(51200),!1)
