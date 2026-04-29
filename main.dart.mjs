@@ -412,14 +412,6 @@ class CompiledApp {
       _1301: (x0,x1) => x0.removeItem(x1),
       _1302: (x0,x1,x2) => x0.setItem(x1,x2),
       _1303: (x0,x1) => x0.key(x1),
-      _1304: (x0,x1,x2,x3,x4,x5,x6,x7) => x0.unwrapKey(x1,x2,x3,x4,x5,x6,x7),
-      _1305: (x0,x1,x2,x3,x4,x5) => x0.importKey(x1,x2,x3,x4,x5),
-      _1306: (x0,x1,x2,x3) => x0.generateKey(x1,x2,x3),
-      _1307: (x0,x1,x2,x3,x4) => x0.wrapKey(x1,x2,x3,x4),
-      _1308: (x0,x1,x2) => x0.exportKey(x1,x2),
-      _1309: (x0,x1) => x0.getRandomValues(x1),
-      _1310: (x0,x1,x2,x3) => x0.encrypt(x1,x2,x3),
-      _1311: (x0,x1,x2,x3) => x0.decrypt(x1,x2,x3),
       _1312: Date.now,
       _1314: s => new Date(s * 1000).getTimezoneOffset() * 60,
       _1315: s => {
@@ -749,15 +741,11 @@ class CompiledApp {
       _1746: x0 => x0.total,
       _1810: x0 => x0.style,
       _3516: () => globalThis.window,
-      _3834: x0 => x0.isSecureContext,
-      _3837: x0 => x0.crypto,
-      _3842: x0 => x0.sessionStorage,
       _3843: x0 => x0.localStorage,
       _4176: x0 => x0.length,
       _6195: () => globalThis.document,
       _6276: x0 => x0.body,
       _10743: (x0,x1) => { x0.background = x1 },
-      _12301: x0 => x0.subtle,
 
     };
 
